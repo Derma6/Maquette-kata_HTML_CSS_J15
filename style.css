@@ -17,14 +17,20 @@ body {
     flex-direction: column;
     align-items: center;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 ul {
     list-style-type: none;
 }
-
-
+section {
+    width: 75%;
+}
 /*-----HEADER-----*/
 header {
-    width: 80%;
+    width: 75%;
     min-height: 200px;
     display: flex;
     justify-content: space-between;
@@ -56,5 +62,53 @@ nav ul {
     border: var(--purpleColor) solid 0.1em;
     padding: 8px 24px;
     border-radius: 6px;
+    width: fit-content;
+
 }
 
+/*-----FIRST SECTION-----*/
+section:nth-child(1) {
+    display: flex;
+    align-items: center; 
+}
+.leftContainer {
+    width: 60%;
+    min-height: 500px;
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.firstLine {
+    display: flex;
+    align-items: center;
+}
+#purpleLine {
+    width: 5em;
+    height: 1px;
+    background-color: var(--purpleColor);
+}
+h2 {
+    color: var(--purpleColor);
+    margin-left: 0.5em;
+    font-weight: normal;
+}
+h1 {
+    font-size: 50px;
+}
+section:nth-child(1) ul {
+    width: 100%;
+    display: flex;
+    border-bottom: #6B7280 solid 0.1em;
+    padding-bottom: 2em;
+}
+section:nth-child(1) li {
+    margin-right: 1em;
+}
+.secondDesignBtn {
+    background-color: var(--purpleColor);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 6px;
+    width: fit-content;
+}
