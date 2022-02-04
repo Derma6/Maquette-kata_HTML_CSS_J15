@@ -1,13 +1,16 @@
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+} 
+
 :root {
     --purpleColor : #3730A3;
     --textColorGrey : #6B7280;
 }
-
 * {
     margin: 0;
     padding: 0;
-}
-
+    font-family: 'Inter', sans-serif;}
 a {
     text-decoration: none;
     color: var(--textColorGrey);
@@ -28,6 +31,7 @@ ul {
 section {
     width: 75%;
 }
+
 /*-----HEADER-----*/
 header {
     width: 75%;
@@ -94,12 +98,13 @@ h2 {
     font-weight: normal;
 }
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 700;
 }
 section:nth-child(1) ul {
     width: 100%;
     display: flex;
-    border-bottom: #6B7280 solid 0.1em;
+    border-bottom: #E5E7EB solid 0.1em;
     padding-bottom: 2em;
 }
 section:nth-child(1) li {
@@ -111,4 +116,37 @@ section:nth-child(1) li {
     padding: 8px 24px;
     border-radius: 6px;
     width: fit-content;
+}
+.leftContainer p {
+    width : 85%;
+    color: var(--textColorGrey);
+}
+
+/*-----SECOND SECTION-----*/
+section:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin: 3.5em 0;
+}
+section:nth-child(2) p {
+    text-align: center;
+    width: 75%;
+}
+section:nth-child(2) span {
+    color: var(--purpleColor);
+}
+
+/*-----THIRD SECTION-----*/
+section:nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+section:nth-child(3) div {
+    display: flex;
+    flex-wrap: wrap;
+}
+section:nth-child(3) article {
+    width: 50%;
 }
