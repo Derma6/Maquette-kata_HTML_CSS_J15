@@ -6,6 +6,7 @@
 :root {
     --purpleColor : #3730A3;
     --textColorGrey : #6B7280;
+    --backgroundRed : #FEF2F2;
 }
 * {
     margin: 0;
@@ -130,7 +131,7 @@ section:nth-child(2) {
     justify-content: center;
     font-size: 38px;
     font-weight: 600;
-    margin: 3.5em 0;
+    margin: 3.2em 0;
 }
 section:nth-child(2) p {
     text-align: center;
@@ -175,4 +176,79 @@ section:nth-child(3) p {
 }
 
 /*-----FOURTH SECTION-----*/
+section:nth-child(4) {
+    width: 100%;
+    min-height: 200px;
+    background-color: var(--backgroundRed);
+    margin-top: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9CA3AF;
+}
+.containerSection4 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.containerLogo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
 
+/*-----FOURTH SECTION-----*/
+section:nth-child(5) {
+    width: 85%;
+    font-size: 38px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(5) p {
+    width: 65%;
+    text-align: center;
+    margin: 3em;
+}
+section:nth-child(5) img {
+    margin: 0.4em;
+}
+.mainContainerImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondContainerImg {
+    display: flex;
+    justify-content: space-between;
+}
+.leftContainerImg {
+    display: flex;
+    flex-direction: column;
+}
+.rightImg {
+    position: relative;
+}
+.legend {
+    width: 90%;
+    min-height: 5em;
+    padding: 1.5em;
+    background-color: white;
+    border: 0;
+    position: absolute;
+    bottom: 2.8em;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.arrow {
+    font-size: 1.5em;
+}
+h4 {
+    margin-bottom: 0.3em;
+}
