@@ -197,7 +197,7 @@ section:nth-child(4) {
     margin-top: 1em;
 }
 
-/*-----FOURTH SECTION-----*/
+/*-----FIFTH SECTION-----*/
 section:nth-child(5) {
     width: 85%;
     font-size: 38px;
@@ -251,4 +251,27 @@ section:nth-child(5) img {
 }
 h4 {
     margin-bottom: 0.3em;
+}
+
+/*-----SIXTH SECTION-----*/
+section:nth-child(6) {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 6em;
+}
+section:nth-child(6) div {
+    width: 25%;
+}
+.logoSection6 {
+    background-color:#EEF2FF;
+    padding: 1.5em;
+    width: 24px;
+}
+section:nth-child(6) div>* {
+    margin-top: 0.8em;
+}
+section:nth-child(6) p {
+    color: var(--textColorGrey);
 }
