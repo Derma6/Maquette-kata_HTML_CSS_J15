@@ -13,7 +13,6 @@
     font-family: 'Inter', sans-serif;}
 a {
     text-decoration: none;
-    color: var(--textColorGrey);
 }
 body {
     display: flex;
@@ -110,6 +109,9 @@ section:nth-child(1) ul {
 section:nth-child(1) li {
     margin-right: 1em;
 }
+.nav {
+    color: var(--textColorGrey);
+}
 .secondDesignBtn {
     background-color: var(--purpleColor);
     color: white;
@@ -142,11 +144,35 @@ section:nth-child(2) span {
 section:nth-child(3) {
     display: flex;
     align-items: center;
+    justify-content: space-around;    
 }
 section:nth-child(3) div {
+    width: 60%;
+    min-height: 25em;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 section:nth-child(3) article {
-    width: 50%;
+    width: 40%;
+    min-height: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 0;
 }
+section:nth-child(3) img {
+    width: 35%;
+}
+section:nth-child(3) p {
+    font-size: small;
+    color: var(--textColorGrey);
+}
+.btn {
+    font-size: small;
+    color: var(--purpleColor);
+    
+}
+
+/*-----FOURTH SECTION-----*/
+
