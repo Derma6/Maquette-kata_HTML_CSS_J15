@@ -31,6 +31,11 @@ ul {
 section {
     width: 75%;
 }
+.titreSection {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
 
 /*-----HEADER-----*/
 header {
@@ -129,12 +134,10 @@ section:nth-child(1) li {
 section:nth-child(2) {
     display: flex;
     justify-content: center;
-    font-size: 38px;
-    font-weight: 600;
+
     margin: 3.2em 0;
 }
 section:nth-child(2) p {
-    text-align: center;
     width: 75%;
 }
 section:nth-child(2) span {
@@ -259,7 +262,7 @@ section:nth-child(6) {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 6em;
+    margin: 5em;
 }
 section:nth-child(6) div {
     width: 25%;
@@ -274,4 +277,45 @@ section:nth-child(6) div>* {
 }
 section:nth-child(6) p {
     color: var(--textColorGrey);
+}
+
+/*-----SEVENTH SECTION-----*/
+section:nth-child(7) p {
+    text-align: center;
+    margin: 0.6em 0 1.4em;
+}
+section:nth-child(7) ul {
+    display: flex;
+    justify-content: space-between;
+    color: var(--textColorGrey);
+}
+section:nth-child(7) li {
+    margin: 2.8em 0;
+}
+section:nth-child(7) ul span {
+    display: flex inline;
+    justify-content: space-between;
+    color: black;
+}
+
+/*-----FOOTER-----*/
+footer {
+    width: 100%;
+    min-height: 350px;
+    background-color: var(--backgroundRed);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footer {
+    text-align: center;
+    width: 40%;
+    color: var(--textColorGrey);
+    margin: 1em 0 4em;
+}
+footer div {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
 }
